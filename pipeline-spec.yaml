@@ -1,0 +1,31 @@
+dataset-2953:
+  title: Dataset 2953
+  pipeline:
+    -
+      run: add_metadata
+      parameters:
+        name: 'bariumvub_mulvfs'
+        title: 'Barium VUB - Dissolved Ba; particulate Ba, Sr, Ca, Al from MULVFS from VERTIGO cruises KM0414, ZHNG09RR from the Hawaiian Islands HOT Site, NW SubArctic Pacific Ocean K2 Site, 2004-2005 (VERTIGO project)'
+        homepage: 'https://www.bco-dmo.org/dataset/2953'
+        sources':
+          -
+            title: 'BCO-DMO'
+            path: 'https://www.bco-dmo.org/dataset/2953'
+        licenses:
+          -
+            name: 'CC-BY-4.0'
+            path: 'http://creativecommons.org/licenses/by/4.0/'
+    -
+      run: add_resource
+      parameters:
+        name: 'bariumvub_mulvfs_dataset_2953'
+        url: 'https://www.bco-dmo.org/dataset/2953/data/download/tsv'
+        format: tsv
+    -
+      run: stream_remote_resources
+      cache: False
+    -
+      run: dump.to_path
+      parameters:
+          out-path: '.'
+          pretty-descriptor: True
