@@ -104,7 +104,7 @@
                         "format": "default"
                     }, 
                     {
-                        "type": "number", 
+                        "type": "string", 
                         "name": "Al_part", 
                         "format": "default"
                     }
