@@ -59,7 +59,7 @@
                         "format": "default"
                     }, 
                     {
-                        "type": "integer", 
+                        "type": "string", 
                         "name": "cast", 
                         "format": "default"
                     }, 
