@@ -120,10 +120,12 @@
 		"label": "Graph",
 		"type": "Graph",
 		"state": {
-			"group": "event",
+			"group": "depth",
 			"series": [
 				"Ba_part",
-				"Sr_part"
+				"Sr_part",
+        			"Ca_part",
+        			"Al_part"
 			],
 			"graphType": "points"
 		}
