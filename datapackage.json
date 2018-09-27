@@ -124,8 +124,7 @@
 			"series": [
 				"Ba_part",
 				"Sr_part",
-        			"Ca_part",
-        			"Al_part"
+        			"Ca_part"
 			],
 			"graphType": "points"
 		}
